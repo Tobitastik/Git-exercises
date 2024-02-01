@@ -16,4 +16,11 @@ public class Main {
             System.out.println(randomNumber);
         }
     }
+
+    public static void printNumbers(int start, int end){
+        while(start < end){
+            System.out.println(start);
+            start++;
+        }
+    }
 }
